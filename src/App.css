@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  background-color: grey;
+  height: 100vh;
+}
+
+.PlayingBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 240;
+  height: 240;
+  background-color: white;
+  margin: auto;
 }
 
 .App-logo {
